@@ -13,30 +13,31 @@ class Stack{
 		top = -1;
 	}
 	
-	public boolean isEmpty(){
+	public boolean isEmpty(){			//判断栈是否为空
 		return top==-1;
 	}
 	
-	public boolean isFull(){
+	public boolean isFull(){			//判断栈是否满了
 		return top==maxSize-1;
 	}
-	public boolean push(int key){		//压入元素
+	public boolean push(int key){		//入栈
 		if (isFull())
 			return false;
-		arr[++top] = key;
+		arr[++top] = key;				//每压入一个元素，top指针加1
 		return true;
 	}
 	
-	public int pop(){
-		return arr[top--];
+	public int pop(){					//出栈
+		return arr[top--];				//返回栈顶元素，top指针减1
 	}
 	
-	public int peek() {
+	public int peek() {					//查看栈顶元素
 		
 		return arr[top];
 	}
 }
 
+//测试正确性
 public class StackApp {
 	public static void main(String[] args) {
 		Stack theStack = new Stack(10);
