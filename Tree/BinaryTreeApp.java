@@ -25,7 +25,7 @@ class BinaryTree{
 	BinaryTree(){
 		root = null;
 	}
-
+	// 查找节点
 	public Node find(int key){
 		Node current = root;
 		while (current != null){
@@ -38,7 +38,7 @@ class BinaryTree{
 		}
 		return current;
 	}
-
+	// 插入节点
 	public void insert(int key){
 		Node newNode = new Node();
 		newNode.iData = key;
@@ -67,7 +67,7 @@ class BinaryTree{
 			}
 		}
 	}
-
+	// 删除节点
 	public boolean delete(int key){
 		Node current = root;
 		Node parent = root;
@@ -148,7 +148,7 @@ class BinaryTree{
 		}
 		return successor;
 	}
-	
+	// 遍历树
 	public void traverse(int traversType)
 	{
 		switch(traversType)
