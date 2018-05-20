@@ -2,7 +2,7 @@
  * 单链表的实现
  */
 
-package datastructjava;
+package LinkList;
 
 //定义单个链接点
 class Link{

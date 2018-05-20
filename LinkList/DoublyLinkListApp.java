@@ -1,7 +1,7 @@
-/**
+﻿/**
  *双向链表的实现
  */
-package java_learn;
+package LinkList;
 
 class Link
 {

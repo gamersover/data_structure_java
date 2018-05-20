@@ -1,7 +1,7 @@
 /**
  * 最大堆的实现
  */
-package heap;
+package Heap;
 
 // 定义节点
 class Node{

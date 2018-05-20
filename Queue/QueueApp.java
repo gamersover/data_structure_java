@@ -1,4 +1,4 @@
-package queue;
+package Queue;
 /**
  * 实现队列
  */

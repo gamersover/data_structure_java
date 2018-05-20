@@ -2,7 +2,7 @@
  * 二叉搜索树的实现
  */
 
-package tree;
+package Tree;
 
 import java.io.BufferedReader;
 import java.io.IOException;
